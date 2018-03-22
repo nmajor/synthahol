@@ -82,6 +82,14 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 768px) {
+  #main .title {
+    font-size: 40px;
+  }
+  #main .tagline {
+    font-size: 20px !important;
+  }
+}
 
 #main .line {
   margin: 30px auto;
