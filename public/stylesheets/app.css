@@ -118,6 +118,10 @@ html {
   cursor: pointer;
 }
 
+#main .actions #mc_embed_signup input {
+  width: 100%;
+}
+
 
 @keyframes animStar {
   from {

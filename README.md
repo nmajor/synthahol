@@ -1,3 +1,12 @@
+nodemon server.js
+grunt watch
+
+deploy
+
+grunt build
+git commit
+
+
 Express JS Static Boilerplate
 ============================
 
