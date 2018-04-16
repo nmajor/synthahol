@@ -64,7 +64,7 @@ html {
 
 #main {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 0;
   right: 0;
   color: #FFF;
@@ -72,6 +72,10 @@ html {
   font-family: "lato", sans-serif;
   margin-top: -60px;
   padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #main .title {
   letter-spacing: 10px;
@@ -127,6 +131,14 @@ html {
 }
 
 #main .actions #mc_embed_signup input {
+  width: 100%;
+}
+
+#main .logo {
+  width: 400px;
+}
+
+#main .logo img {
   width: 100%;
 }
 
